@@ -1,7 +1,7 @@
 # Dependencies
 node_modules/
 .pnpm-store/
-package-lock.json
+# Keep lockfile for reproducible deployments on Vercel/Render
 yarn.lock
 pnpm-lock.yaml
 
