@@ -3,7 +3,7 @@
   "framework": "vite",
   "buildCommand": "cd .. && npm run build -w client",
   "outputDirectory": "dist",
-  "installCommand": "cd .. && npm install",
+  "installCommand": "cd .. && NPM_CONFIG_PRODUCTION=false npm install",
   "rewrites": [
     {
       "source": "/(.*)",
